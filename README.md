@@ -60,6 +60,8 @@ $ sudo ufw allow 2200/tcp
 $ sudo ufw allow 80/tcp
 $ sudo ufw allow 123/tcp
 $ sudo ufw allow www
+- Block anything from Port22
+$ sudo ufw deny 22
 $ sudo ufw enable
 $ sudo ufw status
 
